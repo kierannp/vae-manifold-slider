@@ -26,8 +26,87 @@
     height: 100%;
     width: 100%;
 }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .large-box {
+        height: 350px;
+        width: 350px;
+        position: relative;
+        }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+    .large-box {
+        height: 350px;
+        width: 350px;
+        position: relative;
+        }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+    .large-box {
+        height: 350px;
+        width: 350px;
+        position: relative;
+        }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .large-box {
+        height: 800px;
+        width: 800px;
+        position: relative;
+        }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .large-box {
+        height: 800px;
+        width: 800px;
+        position: relative;
+        }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .large-box {
+        height: 800px;
+        width: 800px;
+        position: relative;
+        }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
 .large-box {
     height: 800px;
     width: 800px;
     position: relative;
-  }
+    }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+.large-box {
+    height: 800px;
+    width: 800px;
+    position: relative;
+    }
+}

@@ -43,7 +43,6 @@ function DoubleSlider() {
       <div className="vSlider">
         <Slider
           orientation="vertical"
-          // getAriaValueText={valuetext}
           defaultValue={0}
           step={.02}
           aria-labelledby="discrete-vertical-slider-small-steps"
@@ -57,7 +56,6 @@ function DoubleSlider() {
       <div className="hSlider">
         <Slider
           defaultValue={0}
-          // getAriaValueText={valuetext}
           aria-labelledby="discrete-slider-small-steps"
           step={.02}
           marks
