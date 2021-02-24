@@ -1,0 +1,25 @@
+{
+  "short_name": "Vae-Slider",
+  "name": "Vae-Slider",
+  "icons": [
+    {
+      "src": "icon-72x72.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "cfa18c749773c0e01b3aae98f82f1f07.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "cfa18c749773c0e01b3aae98f82f1f07.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

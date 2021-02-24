@@ -1,0 +1,33 @@
+.vSlider {
+    height: 90%;
+    padding: 10px;
+    /* float: left; */
+    align-self: center;
+    position: absolute;
+    left: 0;
+}
+.hSlider {
+    width: 90%;
+    padding: 10px;
+    /* float: bottom; */
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.image-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 90%;
+    width: 90%;
+}
+.image-box canvas{
+    height: 100%;
+    width: 100%;
+}
+.large-box {
+    height: 800px;
+    width: 800px;
+    position: relative;
+  }
