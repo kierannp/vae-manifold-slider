@@ -7,8 +7,8 @@ import * as tf from '@tensorflow/tfjs';
 let decoder;
 let result;
 var url = {
-  modelLink: 'https://storage.googleapis.com/test-tfjs/model.json',
-  binData: 'https://storage.googleapis.com/test-tfjs/group1-shard1of1.bin'
+  modelLink: 'https://cors-anywhere.herokuapp.com/https://storage.googleapis.com/test-tfjs/model.json',
+  binData: 'https://cors-anywhere.herokuapp.com/https://storage.googleapis.com/test-tfjs/group1-shard1of1.bin'
 };    
 function DoubleSlider() {  
     const [sliderVState, setSliderVState] = useState(0);
@@ -32,7 +32,7 @@ function DoubleSlider() {
       result = decoder.predict(inputTensor,{batchSize: 1}).reshape([28,28]);
       await tf.browser.toPixels(result, canvasRef.current);
     }
-    let res = secondLoad().then( () => processState());
+    let res = secondLoad().then( async () => await processState());
     
     console.log(sliderHState, sliderVState);
     return (
