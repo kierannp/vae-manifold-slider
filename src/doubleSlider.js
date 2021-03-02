@@ -34,7 +34,6 @@ function DoubleSlider() {
     }
     let res = secondLoad().then( async () => await processState());
     
-    console.log(sliderHState, sliderVState);
     return (
     <div className="large-box">  
       <div className="image-box">
